@@ -1,0 +1,44 @@
+/// <reference types="vite/client" />
+
+declare module 'lucide-react' {
+  import type { FC, SVGProps } from 'react';
+  type Icon = FC<SVGProps<SVGSVGElement>>;
+  export const UtensilsCrossed: Icon;
+  export const ShoppingCart: Icon;
+  export const LogOut: Icon;
+  export const Menu: Icon;
+  export const X: Icon;
+  export const LayoutDashboard: Icon;
+  export const LogIn: Icon;
+  export const UserPlus: Icon;
+  export const User: Icon;
+  export const Eye: Icon;
+  export const EyeOff: Icon;
+  export const Search: Icon;
+  export const ChevronLeft: Icon;
+  export const ChevronRight: Icon;
+  export const ChefHat: Icon;
+  export const Package: Icon;
+  export const ArrowLeft: Icon;
+  export const ArrowRight: Icon;
+  export const Minus: Icon;
+  export const Plus: Icon;
+  export const ShoppingBag: Icon;
+  export const Trash2: Icon;
+  export const Tags: Icon;
+  export const Users: Icon;
+  export const TrendingUp: Icon;
+  export const MapPin: Icon;
+  export const Moon: Icon;
+  export const Sun: Icon;
+  export const Home: Icon;
+  export const AlertTriangle: Icon;
+  export const Sparkles: Icon;
+  export const Truck: Icon;
+  export const Star: Icon;
+  export const Clock: Icon;
+  export const Heart: Icon;
+  export const Pencil: Icon;
+  export const SlidersHorizontal: Icon;
+  export const CreditCard: Icon;
+}
